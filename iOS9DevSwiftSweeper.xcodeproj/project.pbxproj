@@ -8,23 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5C3C89E01D2E8FCF00CC8BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C89DF1D2E8FCF00CC8BCE /* AppDelegate.swift */; };
-		5C3C89E21D2E8FCF00CC8BCE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89E11D2E8FCF00CC8BCE /* GameScene.sks */; };
 		5C3C89E41D2E8FCF00CC8BCE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C89E31D2E8FCF00CC8BCE /* GameScene.swift */; };
 		5C3C89E61D2E8FCF00CC8BCE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C89E51D2E8FCF00CC8BCE /* GameViewController.swift */; };
 		5C3C89E91D2E8FD000CC8BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89E71D2E8FD000CC8BCE /* Main.storyboard */; };
 		5C3C89EB1D2E8FD000CC8BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89EA1D2E8FD000CC8BCE /* Assets.xcassets */; };
-		5C3C89EE1D2E8FD000CC8BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89EC1D2E8FD000CC8BCE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C3C89DC1D2E8FCF00CC8BCE /* iOS9DevSwiftSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS9DevSwiftSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3C89DF1D2E8FCF00CC8BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C3C89E11D2E8FCF00CC8BCE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5C3C89E31D2E8FCF00CC8BCE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5C3C89E51D2E8FCF00CC8BCE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5C3C89E81D2E8FD000CC8BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C3C89EA1D2E8FD000CC8BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C3C89ED1D2E8FD000CC8BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3C89EF1D2E8FD000CC8BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,12 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				5C3C89DF1D2E8FCF00CC8BCE /* AppDelegate.swift */,
-				5C3C89E11D2E8FCF00CC8BCE /* GameScene.sks */,
 				5C3C89E31D2E8FCF00CC8BCE /* GameScene.swift */,
 				5C3C89E51D2E8FCF00CC8BCE /* GameViewController.swift */,
 				5C3C89E71D2E8FD000CC8BCE /* Main.storyboard */,
 				5C3C89EA1D2E8FD000CC8BCE /* Assets.xcassets */,
-				5C3C89EC1D2E8FD000CC8BCE /* LaunchScreen.storyboard */,
 				5C3C89EF1D2E8FD000CC8BCE /* Info.plist */,
 			);
 			path = iOS9DevSwiftSweeper;
@@ -102,6 +96,7 @@
 				TargetAttributes = {
 					5C3C89DB1D2E8FCF00CC8BCE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 24495W6MQC;
 					};
 				};
 			};
@@ -128,8 +123,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3C89E21D2E8FCF00CC8BCE /* GameScene.sks in Resources */,
-				5C3C89EE1D2E8FD000CC8BCE /* LaunchScreen.storyboard in Resources */,
 				5C3C89EB1D2E8FD000CC8BCE /* Assets.xcassets in Resources */,
 				5C3C89E91D2E8FD000CC8BCE /* Main.storyboard in Resources */,
 			);
@@ -157,14 +150,6 @@
 				5C3C89E81D2E8FD000CC8BCE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5C3C89EC1D2E8FD000CC8BCE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5C3C89ED1D2E8FD000CC8BCE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,10 +244,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iOS9DevSwiftSweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liyicky.iOS9DevSwiftSweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -270,10 +258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = iOS9DevSwiftSweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liyicky.iOS9DevSwiftSweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

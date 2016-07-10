@@ -11,8 +11,8 @@ import SpriteKit
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!"
+        let myLabel = SKLabelNode(fontNamed:"Helvetica")
+        myLabel.text = "Anh's World!"
         myLabel.fontSize = 45
         myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
         
@@ -25,10 +25,10 @@ class GameScene: SKScene {
         for touch in touches {
             let location = touch.locationInNode(self)
             
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
+            let sprite = SKSpriteNode(imageNamed:"Anh")
             
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
+            sprite.xScale = 0.1
+            sprite.yScale = 0.1
             sprite.position = location
             
             let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
