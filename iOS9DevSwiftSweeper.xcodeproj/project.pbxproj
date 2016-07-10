@@ -17,6 +17,7 @@
 		5C3C89FC1D3225DA00CC8BCE /* flagPlant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89F81D3225DA00CC8BCE /* flagPlant.wav */; };
 		5C3C89FD1D3225DA00CC8BCE /* flagRemove.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89F91D3225DA00CC8BCE /* flagRemove.wav */; };
 		5C3C89FF1D32263700CC8BCE /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C89FE1D32263700CC8BCE /* Tile.swift */; };
+		5C3C8A011D32279300CC8BCE /* MineTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C8A001D32279300CC8BCE /* MineTileButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5C3C89F81D3225DA00CC8BCE /* flagPlant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flagPlant.wav; path = ../../../../../Downloads/SwiftSweeperSounds/flagPlant.wav; sourceTree = "<group>"; };
 		5C3C89F91D3225DA00CC8BCE /* flagRemove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flagRemove.wav; path = ../../../../../Downloads/SwiftSweeperSounds/flagRemove.wav; sourceTree = "<group>"; };
 		5C3C89FE1D32263700CC8BCE /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		5C3C8A001D32279300CC8BCE /* MineTileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineTileButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5C3C89EA1D2E8FD000CC8BCE /* Assets.xcassets */,
 				5C3C89EF1D2E8FD000CC8BCE /* Info.plist */,
 				5C3C89FE1D32263700CC8BCE /* Tile.swift */,
+				5C3C8A001D32279300CC8BCE /* MineTileButton.swift */,
 			);
 			path = iOS9DevSwiftSweeper;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				5C3C89E41D2E8FCF00CC8BCE /* GameScene.swift in Sources */,
 				5C3C89E61D2E8FCF00CC8BCE /* GameViewController.swift in Sources */,
 				5C3C89E01D2E8FCF00CC8BCE /* AppDelegate.swift in Sources */,
+				5C3C8A011D32279300CC8BCE /* MineTileButton.swift in Sources */,
 				5C3C89FF1D32263700CC8BCE /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
