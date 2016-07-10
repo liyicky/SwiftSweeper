@@ -12,6 +12,10 @@
 		5C3C89E61D2E8FCF00CC8BCE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3C89E51D2E8FCF00CC8BCE /* GameViewController.swift */; };
 		5C3C89E91D2E8FD000CC8BCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89E71D2E8FD000CC8BCE /* Main.storyboard */; };
 		5C3C89EB1D2E8FD000CC8BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89EA1D2E8FD000CC8BCE /* Assets.xcassets */; };
+		5C3C89FA1D3225DA00CC8BCE /* mineExplosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89F61D3225DA00CC8BCE /* mineExplosion.wav */; };
+		5C3C89FB1D3225DA00CC8BCE /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89F71D3225DA00CC8BCE /* win.wav */; };
+		5C3C89FC1D3225DA00CC8BCE /* flagPlant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89F81D3225DA00CC8BCE /* flagPlant.wav */; };
+		5C3C89FD1D3225DA00CC8BCE /* flagRemove.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C3C89F91D3225DA00CC8BCE /* flagRemove.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		5C3C89E81D2E8FD000CC8BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C3C89EA1D2E8FD000CC8BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3C89EF1D2E8FD000CC8BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C3C89F61D3225DA00CC8BCE /* mineExplosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mineExplosion.wav; path = ../../../../../Downloads/SwiftSweeperSounds/mineExplosion.wav; sourceTree = "<group>"; };
+		5C3C89F71D3225DA00CC8BCE /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = ../../../../../Downloads/SwiftSweeperSounds/win.wav; sourceTree = "<group>"; };
+		5C3C89F81D3225DA00CC8BCE /* flagPlant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flagPlant.wav; path = ../../../../../Downloads/SwiftSweeperSounds/flagPlant.wav; sourceTree = "<group>"; };
+		5C3C89F91D3225DA00CC8BCE /* flagRemove.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = flagRemove.wav; path = ../../../../../Downloads/SwiftSweeperSounds/flagRemove.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		5C3C89DE1D2E8FCF00CC8BCE /* iOS9DevSwiftSweeper */ = {
 			isa = PBXGroup;
 			children = (
+				5C3C89F51D3225A900CC8BCE /* Sounds */,
 				5C3C89DF1D2E8FCF00CC8BCE /* AppDelegate.swift */,
 				5C3C89E31D2E8FCF00CC8BCE /* GameScene.swift */,
 				5C3C89E51D2E8FCF00CC8BCE /* GameViewController.swift */,
@@ -62,6 +71,17 @@
 				5C3C89EF1D2E8FD000CC8BCE /* Info.plist */,
 			);
 			path = iOS9DevSwiftSweeper;
+			sourceTree = "<group>";
+		};
+		5C3C89F51D3225A900CC8BCE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5C3C89F61D3225DA00CC8BCE /* mineExplosion.wav */,
+				5C3C89F71D3225DA00CC8BCE /* win.wav */,
+				5C3C89F81D3225DA00CC8BCE /* flagPlant.wav */,
+				5C3C89F91D3225DA00CC8BCE /* flagRemove.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3C89EB1D2E8FD000CC8BCE /* Assets.xcassets in Resources */,
+				5C3C89FB1D3225DA00CC8BCE /* win.wav in Resources */,
+				5C3C89FD1D3225DA00CC8BCE /* flagRemove.wav in Resources */,
 				5C3C89E91D2E8FD000CC8BCE /* Main.storyboard in Resources */,
+				5C3C89FA1D3225DA00CC8BCE /* mineExplosion.wav in Resources */,
+				5C3C89FC1D3225DA00CC8BCE /* flagPlant.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
