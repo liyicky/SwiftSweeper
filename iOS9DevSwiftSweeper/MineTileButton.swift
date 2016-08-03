@@ -12,10 +12,12 @@ class MineTileButton : UIButton {
     
     let tileSize:CGFloat
     var tile:Tile
+    var isFlagged:Bool
     
     init(tileButton:Tile, size:CGFloat) {
         self.tile = tileButton
         self.tileSize = size
+        self.isFlagged = false
         
         let x = CGFloat(self.tile.column) * tileSize
         let y = CGFloat(self.tile.row) * tileSize
