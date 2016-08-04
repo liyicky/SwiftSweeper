@@ -236,7 +236,7 @@ class GameScene: SKScene {
     //MARK: Difficulty Logic
     //*******************************************************************
     
-    func easyDifficutlySelected() {
+    func easyDifficultySelected() {
         currentDifficulty_ = .easy
         removeDifficultyMenu()
     }
